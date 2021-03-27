@@ -1,0 +1,13 @@
+@import './font';
+
+// @include font-face('RussoOne', '../fonts/RussoOne/RussoOne', normal, null, eot woff2 woff ttf);
+@include font-face('Roboto', '../fonts/Roboto/Roboto-Regular', normal);
+@include font-face('Roboto', '../fonts/Roboto/Roboto-Bold', bold);
+@include font-face('Roboto', '../fonts/Roboto/Roboto-Light', 300);
+@include font-face('Roboto', '../fonts/Roboto/Roboto-Thin', 200);
+@include font-face('Rubik', '../fonts/Rubik/Rubik-Regular', normal);
+@include font-face('Rubik', '../fonts/Rubik/Rubik-Bold', bold);
+@include font-face('Rubik', '../fonts/Rubik/Rubik-Thin', 300);
+@include font-face('Rubik', '../fonts/Rubik/Rubik-Light', 200);
+@include font-face('Rubik', '../fonts/Rubik/Rubik-Black', 900);
+@include font-face('Rubik', '../fonts/Rubik/Rubik-Medium', 500);

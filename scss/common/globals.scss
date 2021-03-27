@@ -1,0 +1,30 @@
+@import "./media";
+@import "./fonts.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    &:active,&:focus{
+        outline: none;
+    }
+}
+body{
+    background: #E5E5E5;
+    font-family: Rubik;  
+    overflow-x:hidden;
+}
+// body.lock {
+//     overflow: hidden;
+// }
+.wrap{
+    width: 100%;
+    position: relative;
+    max-width: 1476px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h3{
+    font-family: Roboto;  
+}
