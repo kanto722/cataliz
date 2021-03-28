@@ -120,3 +120,121 @@ text-transform: uppercase;
 color: #FFFFFF;
 transition: 0.1s;
 }
+.line-services-992 {
+    display: none;
+}
+
+//1200px
+@include media-laptop {
+    .services-item {
+        width: 400px;
+        padding: 33px 25px 52px 24px;
+
+    }
+    .services-content {
+        justify-content: center;
+    }
+    .services-item:hover {
+        transform: scale(1);
+    }
+    .services-item-title {
+        font-size: 18px;
+    }
+    .services-item:hover .services-item-title {
+        font-size: 18px;
+    }
+    .services-item:hover .services-item-text {
+        font-size: 15px;
+    }
+}
+//992px
+@include media-tablet-horizontal {
+    .services {
+        padding-top: 50px;
+    }
+    .services-title-img {
+        display: none;
+    }
+    .line-services-992 {
+        display: block;
+        margin-right: 30px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .services-title {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .services-title-text {
+        font-size: 40px;
+        padding-top: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .services-item {
+        background: linear-gradient(104.12deg, rgba(96, 72, 223, 0.54) -5.03%, #0F0F17 99.23%);
+    }
+    .service-item:hover {
+        padding: 0px;
+        transform: scale(0);
+
+    }
+    .services-item-title {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 20px;
+        color: #D1D1D1;
+    }
+    .services-item:hover .services-item-title {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+    .services-item:hover .services-item-text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .services-item-text {
+        font-size: 10px;
+        line-height: 12px;
+        color: #D1D1D1;
+    }
+}
+//768px
+@include media-tablet {
+.services-content {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.services-item {
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+.services-title {
+    margin-bottom: 10px;
+}
+}
+// 480
+@include media-mobile {
+    .services-item {
+        width: 100%;
+        padding: 10px 10px 20px 10px;
+    }
+    .services-title-text {
+        font-size: 20px;
+    }
+    .line-services-992 {
+        margin-right: 10px;
+    }
+}
+@include media-custom (375px) {
+
+}
+// 320
+@include media-mobile-small {
+
+}
