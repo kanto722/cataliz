@@ -3,22 +3,61 @@
 
 
 .footer {
+    margin-top: 237px;
+    background: #090416;
 }
 .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .footer-contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
 }
 .footer-contact-addres {
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: rgba(234, 234, 234, 0.59);
+margin-bottom: 8px;
+}
+.footer-contact-addres:last-child {
+    margin-bottom: 0;
 }
 .footer-contact-time {
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: rgba(234, 234, 234, 0.59);
+margin-top: 38px;
 }
 .footer-contact-tel {
+    display: flex;
+    align-items: center;
+    margin-top: 29px;
 }
 .footer-contact-tel-img {
+    margin-right: 7px;
 }
 .footer-contact-tel-link {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #D1D1D1;
 }
 .footer-maps {
+    width: 800px;
 }
 .footer-maps-wrap {
 }

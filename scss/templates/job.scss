@@ -4,22 +4,61 @@
 
 
 .job {
+    margin-top: 160px;
+    position: relative;
 }
 .job-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .job-title {
+    position: relative;
+    margin-bottom: 122px;
 }
 .job-title-text {
+font-style: normal;
+font-weight: 800;
+font-size: 80px;
+line-height: 98px;
+text-transform: uppercase;
+color: #6245A9;
+text-align: center;
 }
 .job-title-img {
+    position: absolute;
+    top: 48px;
+    right: -91px;
 }
 .job-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 .job-top {
+    display: flex;
 }
 .job-top-img {
+    margin-right: 26px;
+}
+.job-top-img :last-child {
+    margin-right: 0;
 }
 .job-botoom {
+    display: flex;
+    width: 100%;
+    margin-top: 18px;
 }
 .job-botoom-img {
+    margin-right: 26px;
+}
+.job-botoom-img:last-child {
+    margin-right: 0;
+}
+.sfera-jobs {
+    position: absolute;
+    top: -300px;
+    right: 0;
+    z-index: -1;
 }
