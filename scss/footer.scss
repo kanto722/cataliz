@@ -5,6 +5,8 @@
 .footer {
     margin-top: 237px;
     background: #090416;
+    padding-bottom: 80px;
+
 }
 .footer-container {
     display: flex;
@@ -63,4 +65,52 @@ margin-top: 38px;
     width: 800px;
 }
 .footer-maps-wrap {
+}
+
+
+//1200px
+@include media-laptop {
+    .footer {
+        margin-top: 150px;
+
+    }
+    .footer-maps {
+        width: 600px;
+    }
+}
+//992px
+@include media-tablet-horizontal {
+.footer-container {
+    flex-direction: column-reverse;
+}
+.footer-maps {
+    margin-top: 50px;
+}
+}
+//768px
+@include media-tablet {
+    .footer-contact {
+        align-items: center;
+    }
+    .footer-maps {
+        width: 100%;
+    }
+}
+// 480
+@include media-mobile {
+    .footer-contact-addres {
+        font-size:14px;
+        line-height: 10px;
+    }
+    .footer-contact-time {
+        font-size: 14px;
+        line-height: 10px;
+    }
+}
+// 320
+@include media-mobile-small {
+
+}
+@include media-custom (375px) {
+
 }

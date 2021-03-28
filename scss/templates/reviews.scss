@@ -68,6 +68,7 @@ line-height: 37px;
 text-transform: uppercase;
 color: #FFFFFF;
 margin-bottom: 40px;
+display: block;
 }
 .reviews-text {
 font-style: normal;
@@ -107,3 +108,133 @@ color: #FFFFFF;
     -ms-transform:translateY(-10px);
     transform:translateY(-10px)
   }
+
+
+  //1200px
+@include media-laptop {
+    
+}
+//992px
+@include media-tablet-horizontal {
+    .reviews {
+        margin-top: 70px;
+    }
+.swiper-container {
+    width: 700px;
+    padding-top: 25px;
+}
+.reviews-wrap {
+    width: 600px;
+}
+.reviews-title-text {
+    font-size: 40px;
+}
+.reviews-title-img {
+    top: 43px;
+    width: 285px;
+    right: -39px;
+}
+.reviews-foto {
+    top: -25px;
+    width: 100px;
+    right: -6px;
+    height: 100px;
+}
+.reviews-block {
+    padding: 26px 15px 22px 64px;
+
+}
+}
+//768px
+@include media-tablet {
+    .swiper-container {
+        width: 400px;
+        height: 330px;
+        padding-top: 40px;
+    }
+    .reviews-name {
+        font-size: 25px;
+        
+    }
+    .reviews-wrap {
+        width: 100%;
+    }
+    .reviews-block {
+        padding: 26px 15px 22px 22px;
+    }
+    .reviews-content {
+        padding-right: 0px;
+    }
+    .reviews-foto {
+        right: 12px;
+
+    }
+    .swiper-button-next {
+        transform: translate(-158px, 130px);
+
+    }
+    .reviews-text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .reviews-block-raiting {
+        margin-top: 30px;
+    }
+    .reviews-name {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 25px;
+    }
+    .reviews-foto {
+        top: -42px;
+
+    }
+    .reviews-raiting-img {
+        height: 12px;
+    }
+}
+// 480
+@include media-mobile {
+    .swiper-container {
+        width: 280px;
+        height: 310px;
+        padding-top: 18px;
+
+    }
+    .swiper-button-next {
+        transform: translate(-116px, 130px);
+
+    }
+    .swiper-button-prev,.swiper-button-next {
+        min-width: 20px;
+        min-height: 20px;
+        background-size: 100% auto;
+    }
+    .reviews-foto {
+        width: 57px;
+        height: 57px;
+        top: -18px;
+    }
+    .reviews-content {
+        padding-top: 20px;
+    }
+    .reviews {
+        margin-top: 17px;
+    }
+    .reviews-title-text {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .reviews-title-img {
+        top: 13px;
+        width: 116px;
+        right: -8px;
+    }
+}
+// 320
+@include media-mobile-small {
+
+}
+@include media-custom (375px) {
+
+}
