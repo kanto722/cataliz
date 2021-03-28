@@ -5,6 +5,7 @@
 
 .reviews {
     margin-top: 75px;
+    padding-bottom: 40px;
 }
 
 .reviews-container {
@@ -31,31 +32,63 @@ color: #6245A9;
     right: -45px;
 }
 .reviews-content {
-    margin-top: 40px;
+    padding-top: 54px;
+    padding-right: 40px;
 }
 .swiper-container {
     width: 924px;
     height: 430px;
+    padding-top: 90px;
 }
 .swiper-wrapper {
 }
 .swiper-slide {
 }
 .reviews-wrap {
+    position: relative;
+    background: linear-gradient(104.12deg, rgba(96, 72, 223, 0.54) -5.03%, #0F0F17 99.23%);
+    border-radius: 10px;
+    width: 740px;
 }
 .reviews-block {
+    background-image: url(/assets/images/reviews-fon.png);
+    background-repeat: no-repeat;
+    background-position: top 20% left 2%;
+    padding: 26px 129px 22px 92px;
+}
+.reviews-bg {
+    background: linear-gradient(104.12deg, rgba(96, 72, 223, 0.1) -5.03%, #0F0F17 99.23%);
+    position: absolute;
 }
 .reviews-name {
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 40px;
 }
 .reviews-text {
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
 .reviews-block-raiting {
+    margin-top: 80px;
 }
 .reviews-raiting-img {
 }
 .reviews-hov {
 }
 .reviews-foto {
+    position: absolute;
+    top: -89px;
+    right: -79px;
 }
 .swiper-button-next::after{
     display:none
