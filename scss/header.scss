@@ -3,18 +3,62 @@
 
 
 .header {
-}
-.wrap {
+    background: #14121A;
+    padding-top: 19px;
 }
 .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
 }
 .header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 111px;
 }
 .header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #D1D1D1;
+    outline: none;
+    text-decoration: none;
+    margin-right: 59px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.header-link:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.header-link:last-child{
+    margin-right: 0;
 }
 .header-phone {
+    display: flex;
+    align-items: center;
 }
 .header-phone-img {
+    margin-right: 7px;
 }
 .header-phone-link {
+    outline: none;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #D1D1D1;
+    cursor: pointer;
+
+}
+.header-phone-link:hover {
+    text-decoration: underline;
 }

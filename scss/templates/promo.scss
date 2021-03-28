@@ -4,30 +4,126 @@
 
 
 .promo {
-}
-.wrap {
+    padding-top: 74px;
+    height: 825px;
 }
 .promo-container {
+    position: relative;
+    // height: 825px;
+    display: flex;
+    flex-direction: column;
 }
 .promo-head {
+    position: relative;
 }
 .promo-head-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 122px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #EFEFF0;
+    position: absolute;
+    z-index: 10;
+    top: 40px;
 }
 .promo-head-car {
+    position: absolute;
+    z-index: 5; 
 }
 .promo-head-red {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 100px;
 }
 .promo-head-text {
+    position: absolute;
+    z-index: 4;
+    right: 25px;
+    top: 20px;
 }
 .promo-form {
+    z-index: 15;
+    // position: absolute;
+    // bottom: 0;
+    position: relative;
+    bottom: 0;
+    transform: translateY(582px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .promo-form-container {
+    background: linear-gradient(90.25deg, #141219 -8.42%, #352054 102.8%);
+box-shadow: 0px 4px 53px rgba(32, 25, 38, 0.19);
+backdrop-filter: blur(56px);
+display: flex;
+align-items: center;
+height: 66px;
+width: 100%;
 }
 .promo-form-number {
+    background: none;
+    border: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    color: #EFEFF0;
+
+}
+.promo-form-number::placeholder{
+    color: rgba(209, 209, 209, 0.38);
+
+}
+.input-line {
+    width: 1px;
+    height: 39px;
+    background: #927CB5;
 }
 .promo-form-name {
+    background: none;
+    border: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EFEFF0;
+    width: 100%;
+}
+.promo-form-name::placeholder{
+    color: rgba(209, 209, 209, 0.38);
+
 }
 .promo-form-btn {
+    background: linear-gradient(88.02deg, #6D52B0 -5.8%, #352054 125.43%);
+    border: none;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+
+color: #D1D1D1;
+cursor: pointer;
+padding: 24px 26px 24px 26px;
+}
+.promo-form-btn:hover {
+    background: linear-gradient(191.6deg, #684DA7 16.57%, #422C69 69.11%);
 }
 .promo-sfer {
+    position: absolute;
+    z-index: 4;
+    right: 0;
 }
