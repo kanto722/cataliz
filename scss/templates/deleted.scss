@@ -4,17 +4,79 @@
 
 
 .deleted {
-    padding-top: 141px;
+    margin-top: 141px;
+    background: linear-gradient(94.71deg, #0F0F17 4.15%, rgba(43, 43, 99, 0) 96.22%);
+    position: relative;
 }
 .deleted-container {
+    display: flex;
+    flex-direction: column;
 }
 .deleted-title {
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 61px;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
 .deleted-form {
+    padding-top: 41px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .deleted-input {
+    background: rgba(122, 122, 153, 0.21);
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+text-align: left;
+padding: 26px 0px 26px 17px;
+margin-right: 20px;
+width: 265px;
+}
+.deleted-input:nth-child(5) {
+    margin-right: 75px;
+    margin-top: 27px;
+
+}
+.deleted-input::placeholder{
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+color: rgba(209, 209, 209, 0.38);
 }
 .deleted-btn {
+    background: linear-gradient(91.6deg, #684DA7 6.57%, #422C69 69.11%);
+border-radius: 10px;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+border: none;
+width: 357px;
+margin-top: 27px;
+cursor: pointer;
+}
+.deleted-btn:hover {
+    background: linear-gradient(191.6deg, #684DA7 6.57%, #422C69 69.11%);
+    
 }
 .deleted-sfer {
+    position: absolute;
+    right: 0;
+    top: -380px;
 }
